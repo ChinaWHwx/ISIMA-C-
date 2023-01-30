@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void swap3(int &a, int &b){//或者写作int &a, int &b
+void swap3(int &a, int &b){
     int tmp;
     tmp = a;
     a = b;
@@ -9,11 +9,11 @@ void swap3(int &a, int &b){//或者写作int &a, int &b
 }
 
 int main(){
-    int a = 1;
-    int b = 2;
-    swap3(a, b);    
-    cout<<"a = "<<a<<endl;
-    cout<<"b = "<<b<<endl;
+    int i = 1;
+    int j = 2;
+    swap3(i, j);    
+    cout<<"i = "<<i<<endl;
+    cout<<"j = "<<j<<endl;
     //system("pause");
     return 0;
 }
